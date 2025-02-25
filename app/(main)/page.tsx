@@ -8,9 +8,7 @@ import Technologies from "@/components/sections/technologies";
 export default function Home() {
   return (
     <>
-      {/* loading screen */}
       <LoadingScreen />
-      {/* page sections */}
       <HomeSection />
       <AboutSection />
       <ProjectsSection />

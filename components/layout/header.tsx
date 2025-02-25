@@ -7,25 +7,25 @@ import Link from "next/link";
 const navItems = [
   {
     id: 1,
-    name: "_Home.ts",
+    name: "Home.tsx",
     path: "#home",
     icon: Home,
   },
   {
     id: 2,
-    name: "_About.ts",
+    name: "About.tsx",
     path: "#about",
     icon: User,
   },
   {
     id: 3,
-    name: "_Projects.ts",
+    name: "Projects.tsx",
     path: "#projects",
     icon: File,
   },
   {
     id: 3,
-    name: "_Contact-Me.ts",
+    name: "Contact-Me.tsx",
     path: "#contact",
     icon: LucideSend,
     isRight: true,
@@ -37,14 +37,27 @@ export default function Header() {
 
   return (
     <div className="w-full h-12 border-b bg-muted flex items-center">
-      <div className="w-14 flex items-center justify-center flex-shrink-0 font-bold">{"{M}"}</div>
+      <div className="w-14 flex items-center justify-center flex-shrink-0 font-bold">
+        {"{M}"}
+      </div>
       <div className="flex items-center size-full">
         {navItems.map((item) => {
-          const isActive = item.path === hash || (item.path === "#home" && hash === "");
+          const isActive =
+            item.path === hash || (item.path === "#home" && hash === "");
           return (
-            <Link key={item.id} href={item.path} scroll className={cn("relative h-full w-fit md:min-w-40 border-x flex items-center justify-start gap-2 text-muted-foreground hover:bg-background px-4", isActive && "text-foreground bg-background hover:bg-background", item.isRight && "ml-auto")}>
+            <Link
+              key={item.id}
+              href={item.path}
+              scroll
+              className={cn(
+                "relative h-full w-fit md:min-w-40 border-x flex items-center justify-start gap-2 text-muted-foreground hover:bg-background px-4",
+                isActive && "text-foreground bg-background hover:bg-background",
+                item.isRight && "ml-auto"
+              )}
+            >
               <item.icon size={14} className="text-primary-foreground" />
-              <span className="hidden md:inline">{item.name}</span> {isActive && <BorderActive />}
+              <span className="hidden md:inline">{item.name}</span>{" "}
+              {isActive && <BorderActive />}
             </Link>
           );
         })}

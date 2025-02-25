@@ -1,5 +1,3 @@
-// game logic
-
 type Snake = {
   x: number;
   y: number;
@@ -18,7 +16,10 @@ let snake: Snake = {
   cells: [],
 };
 
-export const startGame = (canvas: HTMLCanvasElement, onGameChange: () => void) => {
+export const startGame = (
+  canvas: HTMLCanvasElement,
+  onGameChange: () => void
+) => {
   const context = canvas.getContext("2d")!;
   const gridSize = 16;
   const gridWidth = Math.floor(canvas.width / gridSize);
@@ -81,12 +82,22 @@ export const startGame = (canvas: HTMLCanvasElement, onGameChange: () => void) =
 
     // Draw food
     context.fillStyle = "green";
-    context.fillRect(food.x * gridSize, food.y * gridSize, gridSize - 1, gridSize - 1);
+    context.fillRect(
+      food.x * gridSize,
+      food.y * gridSize,
+      gridSize - 1,
+      gridSize - 1
+    );
 
     // Draw snake
     context.fillStyle = "#EC1063";
     snake.cells.forEach(function (cell, index) {
-      context.fillRect(cell.x * gridSize, cell.y * gridSize, gridSize - 1, gridSize - 1);
+      context.fillRect(
+        cell.x * gridSize,
+        cell.y * gridSize,
+        gridSize - 1,
+        gridSize - 1
+      );
 
       // Snake ate food
       if (cell.x === food.x && cell.y === food.y) {

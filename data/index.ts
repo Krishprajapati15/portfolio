@@ -2,27 +2,28 @@ import { Github } from "lucide-react";
 
 const data = {
   home: {
-    name: "Mohamed Hassan",
-    description: "The #full__stack developer who builds things for #the_Web.", // # -> for css style, _ -> create space, __ -> creates dash
+    name: "KRISH PRAJAPATI",
+    description:
+      "#Full__Stack Developer | Innovator | Problem Solver 🚀 Crafting Scalable Solutions with #MERN, #NextJS & #AI", // # -> for css style, _ -> create space, __ -> creates dash
     cvLink: "asdf",
   },
   sidebar: {
     links: [
       {
         name: "git hub",
-        link: "https://github.com/mo-hassann",
+        link: "https://github.com/Krishprajapati15",
         icon: Github,
       },
     ],
   },
   about: {
     description:
-      "My name is Mohamed Hassan and I love building full-stack applications. In my free time, I enjoy exploring new technologies and keeping up with the latest trends in web development. Additionally, I like to contribute to open-source projects and share my knowledge through writing technical blogs.",
-    image: "/imgs/about-image.png",
+      "Hey there! I'm Krish Prajapati, a passionate Full-Stack Developer and Blockchain Enthusiast with expertise in MERN Stack, Next.js, and AI-powered solutions. I thrive on building scalable, efficient, and secure applications that solve real-world problems while delivering seamless user experiences. My work spans across web development, blockchain integration, AI-driven automation, and cybersecurity, ensuring that technology not only performs efficiently but also remains future-proof.",
+    image: "/imgs/krish.jpg",
     numbers: [
-      { name: "PROJECTS-COMPLETED", number: 5 },
-      { name: "TOTAL-CONTRIBUTIONS", number: 160 },
-      { name: "CURRENT-YEAR-CONTRIBUTIONS", number: 130 },
+      { name: "PROJECTS-COMPLETED", number: 16 },
+      { name: "TOTAL-CONTRIBUTIONS", number: 210 },
+      { name: "CURRENT-YEAR-CONTRIBUTIONS", number: 120 },
     ],
   },
   projects: {
@@ -30,45 +31,85 @@ const data = {
     projects: [
       {
         id: 1,
-        title: "Social Media App",
-        description: "A platform that allows users to connect, share, and interact with others. It provides a space for posting updates and engaging with content from friends, family, and communities around the world.",
-        image: "/projects-imgs/social.png",
-        githubLink: "https://github.com/mo-hassann/social-app",
-        previewLink: "https://social-m-app.vercel.app",
+        title: "Xenesis-2025",
+        description:
+          "I developed a digital system to streamline Xenesis 2025, our university's biggest tech fest. It features a User Panel for event registration, an Admin Panel and Volunteer Panel for control, and a Food Coupon Scanning System for Lunch. 🚀🎉",
+        image: "/projects-imgs/xenesis2025.png",
+        githubLink: "https://github.com/Sachani/xenesis2025",
+        previewLink: "https://xenesis.ldrp.ac.in/",
+        languages: ["PHP", "JAVASCRIPT", "MYSQL", "Anime.js", "GSAP", "jQuery"],
       },
       {
         id: 2,
-        title: "Quran App",
+        title: "WealthLens",
         description:
-          "In this app you can view the Quran in different languages. You can also listen to the Quran with up to eight different readers. Additionally, you can search for chapters and verses by keyword and view the Quran's translation. Also you can track your reading time and set daily reading goals.",
-        image: "/projects-imgs/quran.png",
-        githubLink: "https://github.com/mo-hassann/nextjs-quran-app",
-        previewLink: "https://quraany-app.vercel.app",
+          "WealthLens is an artificial intelligence-based platform for easy tracking of income, expenses, and taxes. With SmartPaySync, an AI receipt scanner, and Credit Card Track AI, it makes financial management easier 💸",
+        image: "/projects-imgs/wealthlens.png",
+        githubLink: "https://github.com/Krishprajapati15/WealthLens",
+        previewLink: "https://github.com/Krishprajapati15/WealthLens",
+        languages: ["NextJS", "clerk", "Supabase", "TypeScript", "TailwindCSS"],
       },
       {
         id: 3,
-        title: "Notes Taker",
-        description: "The Notes App is a versatile tool designed to help you quickly jot down thoughts, ideas, to-do lists, and important information. you can use it on smartphones, tablets, and computers, making it easy to sync notes across all your devices.",
-        image: "/projects-imgs/notes.png",
-        githubLink: "https://github.com/mo-hassann/simple-notes-app",
-        previewLink: "https://notes-app-s.vercel.app",
+        title: "HackWatch",
+        description:
+          "HackerWatch is an AI-driven cybersecurity solution designed for real-time threat detection and vulnerability prevention. It analyzes risks, strengthens security measures, and ensures proactive digital protection against evolving cyber threats. 🔒🚀",
+        image: "/projects-imgs/hackwatch.png",
+        githubLink: "https://github.com/Krishprajapati15/Hackwatch",
+        previewLink: "https://github.com/Krishprajapati15/Hackwatch",
+        languages: [
+          "React",
+          "NodeJS",
+          "OpenVAS",
+          "TensorFlow",
+          "Clerk",
+          "Python",
+        ],
       },
       {
         id: 4,
-        title: "Developer Portfolio",
-        description: "A developer portfolio is a website or digital platform that showcases a developer's skills, projects, and professional experience. It serves as a personal brand, highlighting the developer's expertise and work to potential employers, clients, or collaborators.",
-        image: "/projects-imgs/portfolio.png",
-        githubLink: "https://github.com/mo-hassann/my-portfolio",
-        previewLink: "https://mohamed-hassan.vercel.app",
+        title: "SecureShare",
+        description:
+          "SecureShare is a privacy-focused file-sharing platform that converts documents into unique, secure links. Users can upload files, generate a shareable link, and access them anytime without storing them locally. 🔒📂",
+        image: "/projects-imgs/file.png",
+        githubLink: "https://github.com/Krishprajapati15/FILE_SHARING",
+        previewLink: "https://github.com/Krishprajapati15/FILE_SHARING",
+        languages: ["React", "Nodejs", "MongoDB", "Expressjs", "Material UI"],
       },
       {
         id: 5,
-        title: "Trello Clone",
+        title: "Find My Mechanic",
         description:
-          "Clone of the Trello App which is a popular project management tool designed to help individuals and teams organize tasks and collaborate efficiently. It uses boards, lists, and cards to visually represent projects and tasks, making it easy to track progress and prioritize work.",
-        image: "/projects-imgs/trello.png",
-        githubLink: "https://github.com/mo-hassann/trello-app",
-        previewLink: "https://trello-app-v1.vercel.app",
+          "Find My Mech is a clever mechanic reservation platform that allows users to discover and book local mechanics, Patrol Partner and Tow Partner with ease. With real-time location tracking and appointment booking, it allows for fast vehicle repair.",
+        image: "/projects-imgs/coming.jpg",
+        githubLink: "https://github.com/Krishprajapati15/Krishprajapati15",
+        previewLink: "https://github.com/Krishprajapati15/Krishprajapati15",
+        languages: [
+          "React",
+          "NodeJS",
+          "Expressjs",
+          "MongoDB",
+          "GSAP",
+          "ChakraUI",
+          "Firebase",
+        ],
+      },
+      {
+        id: 6,
+        title: "Travic",
+        description:
+          "Smart Traffic AI is an intelligent traffic management system 🚦🤖 that optimizes signal timings using AI and IoT sensors. It monitors real-time traffic flow, reduces congestion,  for better city traffic control. 🚗📍",
+        image: "/projects-imgs/travic.png",
+        githubLink: "https://github.com/Krishprajapati15/Travic",
+        previewLink: "https://github.com/Krishprajapati15/Travic",
+        languages: [
+          "React",
+          "NodeJS",
+          "TensorFlow",
+          "Firebase",
+          "GSAP",
+          "MongoDB",
+        ],
       },
     ],
   },
@@ -154,9 +195,9 @@ const data = {
       },
       {
         id: 14,
-        name: "markdown",
-        src: "/skills/markdown.svg",
-        link: "https://en.wikipedia.org/wiki/Markdown",
+        name: "AWS",
+        src: "/skills/aws.svg",
+        link: "https://en.wikipedia.org/wiki/aws",
       },
       {
         id: 15,
@@ -164,10 +205,40 @@ const data = {
         src: "/skills/mongoDB.svg",
         link: "https://en.wikipedia.org/wiki/MongoDB",
       },
+      {
+        id: 16,
+        name: "Nodejs",
+        src: "/skills/node.svg",
+        link: "https://en.wikipedia.org/wiki/nodejs",
+      },
+      {
+        id: 17,
+        name: "expressjs",
+        src: "/skills/express.svg",
+        link: "https://en.wikipedia.org/wiki/expressjs",
+      },
+      {
+        id: 18,
+        name: "python",
+        src: "/skills/python.svg",
+        link: "https://en.wikipedia.org/wiki/python",
+      },
+      {
+        id: 19,
+        name: "supabase",
+        src: "/skills/supabase.svg",
+        link: "https://en.wikipedia.org/wiki/supabase",
+      },
+      {
+        id: 20,
+        name: "ether",
+        src: "/skills/ether.svg",
+        link: "https://en.wikipedia.org/wiki/ether",
+      },
     ],
   },
   contact: {
-    email: "mohamed.hassan.bu@gmail.com",
+    email: "krish_22160@ldrp.ac.in",
   },
 };
 

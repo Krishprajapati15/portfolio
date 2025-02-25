@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import CursorEffect from "@/components/layout/Curser";
+import Loader from "@/components/layout/Loader";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,7 +18,11 @@ export default function RootLayout({
 }>) {
   return (
     <html className="dark" lang="en">
-      <body className="font-mono">{children}</body>
+      <body className="font-mono">
+        <Loader />
+        <CursorEffect />
+        {children}
+      </body>
     </html>
   );
 }
