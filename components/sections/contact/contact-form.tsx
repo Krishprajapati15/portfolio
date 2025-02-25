@@ -36,7 +36,7 @@ const formSchema = z.object({
 export function ContactForm() {
   const [loading, setLoading] = useState(false);
   const [success, setSuccess] = useState(false);
-  const [open, setOpen] = useState(false); // Pop-up state
+  const [open, setOpen] = useState(false);
 
   const form = useForm<z.infer<typeof formSchema>>({
     resolver: zodResolver(formSchema),
@@ -123,7 +123,7 @@ export function ContactForm() {
         <DialogContent>
           <DialogTitle>Message Sent Successfully! 🎉</DialogTitle>
           <DialogDescription>
-            Thank you for reaching out! I'll get back to you soon.
+            Thank you for reaching out! I&apos;ll get back to you soon.
           </DialogDescription>
         </DialogContent>
       </Dialog>
