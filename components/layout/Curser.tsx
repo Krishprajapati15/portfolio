@@ -56,10 +56,10 @@ export default function CursorEffect() {
           y: position.y - 10,
           scale: clicking ? 1.8 : hovering ? 1.3 : 1,
           backgroundColor: clicking
-            ? "rgba(255, 69, 100, 0.9)"
+            ? "rgba(156, 69, 255, 0.64)"
             : "rgba(0, 255, 255, 0.8)",
           boxShadow: clicking
-            ? "0 0 20px rgba(255, 69, 100, 0.9)"
+            ? "0 0 20px rgba(156, 69, 255, 0.64)"
             : "0 0 15px rgba(0, 255, 255, 0.5)",
           mixBlendMode: "difference",
         }}
