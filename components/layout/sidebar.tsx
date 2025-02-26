@@ -1,3 +1,5 @@
+"use client";
+
 import data from "@/data";
 import { cn } from "@/lib/utils";
 import { File, Github, Info } from "lucide-react";
