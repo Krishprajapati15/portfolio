@@ -1,7 +1,6 @@
 // next.config.mjs
-const nextConfig = {
-  reactStrictMode: true,
-  swcMinify: true,
+export default {
+  experimental: {
+    serverActions: true, // Enable Server Actions
+  },
 };
-
-export default nextConfig;
