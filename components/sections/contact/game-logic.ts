@@ -120,7 +120,9 @@ export const startGame = (
     });
   }
 
-  document.addEventListener("keydown", keyPressed);
+  if (typeof document !== "undefined") {
+    document.addEventListener("keydown", keyPressed);
+  }
 
   requestAnimationFrame(loop);
 };

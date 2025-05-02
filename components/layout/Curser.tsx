@@ -12,6 +12,8 @@ export default function CursorEffect() {
   );
 
   useEffect(() => {
+    if (typeof document === "undefined") return;
+
     const handleMouseMove = (e: MouseEvent) => {
       setPosition({ x: e.clientX, y: e.clientY });
       setTrail((prev) => [
@@ -22,7 +24,6 @@ export default function CursorEffect() {
 
     const handleMouseDown = () => setClicking(true);
     const handleMouseUp = () => setClicking(false);
-
     const handleMouseEnter = () => setHovering(true);
     const handleMouseLeave = () => setHovering(false);
 
@@ -30,7 +31,10 @@ export default function CursorEffect() {
     document.addEventListener("mousedown", handleMouseDown);
     document.addEventListener("mouseup", handleMouseUp);
 
-    document.querySelectorAll("a, button, input, textarea").forEach((el) => {
+    const interactiveElements = document.querySelectorAll(
+      "a, button, input, textarea"
+    );
+    interactiveElements.forEach((el) => {
       el.addEventListener("mouseenter", handleMouseEnter);
       el.addEventListener("mouseleave", handleMouseLeave);
     });
@@ -40,7 +44,7 @@ export default function CursorEffect() {
       document.removeEventListener("mousedown", handleMouseDown);
       document.removeEventListener("mouseup", handleMouseUp);
 
-      document.querySelectorAll("a, button, input, textarea").forEach((el) => {
+      interactiveElements.forEach((el) => {
         el.removeEventListener("mouseenter", handleMouseEnter);
         el.removeEventListener("mouseleave", handleMouseLeave);
       });

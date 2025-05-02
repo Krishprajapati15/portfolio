@@ -43,7 +43,7 @@ const data = {
         id: 2,
         title: "WealthLens",
         description:
-          "WealthLens is an artificial intelligence-based platform for easy tracking of income, expenses, and taxes. With SmartPaySync, an AI receipt scanner, and Credit Card Track AI, it makes financial management easier 💸",
+          "AI-powered platform for tracking income, expenses, and taxes with features like SmartPaySync and Credit Card Track AI. 💸",
         image: "/projects-imgs/wealthlens.png",
         githubLink: "https://github.com/Krishprajapati15/WealthLens",
         previewLink: "https://github.com/Krishprajapati15/WealthLens",
@@ -70,7 +70,7 @@ const data = {
         id: 4,
         title: "SecureShare",
         description:
-          "SecureShare is a privacy-focused file-sharing platform that converts documents into unique, secure links. Users can upload files, generate a shareable link, and access them anytime without storing them locally. 🔒📂",
+          "SecureShare: Privacy-first platform for sharing files via secure, unique links without local storage. 🔒📂",
         image: "/projects-imgs/file.png",
         githubLink: "https://github.com/Krishprajapati15/FILE_SHARING",
         previewLink: "https://github.com/Krishprajapati15/FILE_SHARING",
