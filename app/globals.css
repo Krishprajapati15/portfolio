@@ -2,10 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
-  cursor: none;
-}
-
 .custom-cursor {
   pointer-events: none;
   will-change: transform, opacity;
