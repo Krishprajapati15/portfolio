@@ -62,7 +62,7 @@ export default function HomeSection() {
             See My Work
           </Button>
           {data.home.cvLink && (
-            <Button asChild className="bg-muted-foreground/5" variant="ghost">
+            <Button asChild className="bg-muted-foreground/30" variant="ghost">
               <Link href={data.home.cvLink}>Get My CV</Link>
             </Button>
           )}

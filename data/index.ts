@@ -5,7 +5,8 @@ const data = {
     name: "KRISH PRAJAPATI",
     description:
       "#Full__Stack Developer | Innovator | Problem Solver 🚀 Crafting Scalable Solutions with #MERN, #NextJS & #AI", // # -> for css style, _ -> create space, __ -> creates dash
-    cvLink: "asdf",
+    cvLink:
+      "https://drive.google.com/file/d/1j9Om_jNZldv99UkaQf7tGv0urjS1NLot/view?usp=drivesdk",
   },
   sidebar: {
     links: [
