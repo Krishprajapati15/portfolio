@@ -67,16 +67,19 @@ export default function AboutSection() {
       </div>
 
       <div className="flex justify-center gap-6 mt-6 mb-6">
-        <Link href="https://www.linkedin.com/in/your-profile" target="_blank">
+        <Link
+          href="https://www.linkedin.com/in/krish-prajapati-37417226a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+          target="_blank"
+        >
           <Linkedin className="size-8 text-muted-foreground hover:text-blue-500 transition duration-300" />
         </Link>
-        <Link href="https://twitter.com/your-profile" target="_blank">
+        <Link href="https://x.com/krishPr88603152" target="_blank">
           <Twitter className="size-8 text-muted-foreground hover:text-blue-400 transition duration-300" />
         </Link>
-        <Link href="https://instagram.com/your-profile" target="_blank">
+        <Link href="https://www.instagram.com/krish._prajapati" target="_blank">
           <Instagram className="size-8 text-muted-foreground hover:text-pink-500 transition duration-300" />
         </Link>
-        <Link href="https://github.com/your-profile" target="_blank">
+        <Link href="https://github.com/Krishprajapati15" target="_blank">
           <Github className="size-8 text-muted-foreground hover:text-gray-700 transition duration-300" />
         </Link>
       </div>
