@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import Script from "next/script"; // ✅ Import Script
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -16,6 +17,13 @@ export default function RootLayout({
 }>) {
   return (
     <html className="dark" lang="en">
+      <head>
+        {/* ✅ Script added here */}
+        <Script
+          src="https://www.noupe.com/embed/0197b11b0d4f750a8192c2160ee41fa0469a.js"
+          strategy="afterInteractive"
+        />
+      </head>
       <body className="font-mono">{children}</body>
     </html>
   );
