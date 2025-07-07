@@ -6,7 +6,7 @@ const data = {
     description:
       "#Full__Stack Developer | Innovator | Problem Solver 🚀 Crafting Scalable Solutions with #MERN, #NextJS & #AI", // # -> for css style, _ -> create space, __ -> creates dash
     cvLink:
-      "https://drive.google.com/file/d/1o2wSEuraJS4ypRj60a9hKDcxo6Prwd0R/view?usp=drivesdk",
+      "https://drive.google.com/file/d/1oCi5Ah-rJJtnW3UmEbqVlOISeKxUCccm/view?usp=drivesdk",
   },
   sidebar: {
     links: [
