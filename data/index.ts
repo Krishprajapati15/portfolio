@@ -22,9 +22,9 @@ const data = {
       "Hey there! I'm Krish Prajapati, a passionate Full-Stack Developer and Blockchain Enthusiast with expertise in MERN Stack, Next.js, and AI-powered solutions. I thrive on building scalable, efficient, and secure applications that solve real-world problems while delivering seamless user experiences. My work spans across web development, blockchain integration, AI-driven automation, and cybersecurity, ensuring that technology not only performs efficiently but also remains future-proof.",
     image: "/imgs/krish.jpg",
     numbers: [
-      { name: "TOTAL REPOSITORY", number: 68 },
-      { name: "TOTAL-CONTRIBUTIONS", number: 1530 },
-      { name: "CURRENT-YEAR-CONTRIBUTIONS", number: 1048 },
+      { name: "TOTAL REPOSITORY", number: 70 },
+      { name: "TOTAL-CONTRIBUTIONS", number: 1550 },
+      { name: "CURRENT-YEAR-CONTRIBUTIONS", number: 1050 },
     ],
   },
   projects: {
