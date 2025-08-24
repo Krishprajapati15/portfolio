@@ -236,6 +236,25 @@ const data = {
         src: "/skills/ether.svg",
         link: "https://en.wikipedia.org/wiki/ether",
       },
+      {
+  id: 21,
+  name: "svelte",
+  src: "/skills/svelte.svg",
+  link: "https://svelte.dev/",
+},
+{
+  id: 22,
+  name: "sass",
+  src: "/skills/sass.svg",
+  link: "https://sass-lang.com/",
+},
+{
+  id: 23,
+  name: "threejs",
+  src: "/skills/threejs.svg",
+  link: "https://threejs.org/",
+},
+
     ],
   },
   contact: {
