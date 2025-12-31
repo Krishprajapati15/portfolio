@@ -91,7 +91,6 @@ const data = {
           "Expressjs",
           "MongoDB",
           "GSAP",
-          "ChakraUI",
           "Firebase",
         ],
       },
