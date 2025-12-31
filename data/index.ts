@@ -4,9 +4,9 @@ const data = {
   home: {
     name: "KRISH PRAJAPATI",
     description:
-      "#Full__Stack Developer | Innovator | Problem Solver 🚀 Crafting Scalable Solutions with #MERN, #NextJS & #AI", // # -> for css style, _ -> create space, __ -> creates dash
+      "#Full__Stack Developer | Innovator | Problem Solver 🚀 Crafting Scalable Solutions with #MERN, #NextJS, #DevOps & #AI", // # -> for css style, _ -> create space, __ -> creates dash
     cvLink:
-      "https://drive.google.com/file/d/1oCi5Ah-rJJtnW3UmEbqVlOISeKxUCccm/view?usp=drivesdk",
+      "https://drive.google.com/file/d/1BnGSX01F8wrc8Y-97Y6hBI2QPiEpaZUP/view?usp=drivesdk",
   },
   sidebar: {
     links: [
