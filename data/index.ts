@@ -112,6 +112,25 @@ const data = {
           "MongoDB",
         ],
       },
+      {
+        id: 7,
+        title: "ArogyaDarpan",
+        description:
+          "ArogyaDarpan is a smart digital healthcare platform 🏥🧠 that simplifies health management using AI. It provides an AI voice assistant for common diseases, digital medical history storage, global doctor appointment booking, nearby hospital search, medicine reminders, and AI-based medicine identification via image or text for seamless patient care. 💊📱",
+        image: "/projects-imgs/arogyadarpan.png",
+        githubLink: "https://github.com/Krishprajapati15/ArogyaDarpan",
+        previewLink: "https://arogyadarpan.vercel.app",
+        languages: [
+          "Next.js",
+          "NeonDB",
+          "Prisma",
+          "Clerk",
+          "Arcjet",
+          "Inngest",
+          "Vonage",
+          "n8n",
+        ],
+      },
     ],
   },
   technologies: {
@@ -237,24 +256,23 @@ const data = {
         link: "https://en.wikipedia.org/wiki/ether",
       },
       {
-  id: 21,
-  name: "svelte",
-  src: "/skills/svelte.svg",
-  link: "https://svelte.dev/",
-},
-{
-  id: 22,
-  name: "sass",
-  src: "/skills/sass.svg",
-  link: "https://sass-lang.com/",
-},
-{
-  id: 23,
-  name: "threejs",
-  src: "/skills/threejs.svg",
-  link: "https://threejs.org/",
-},
-
+        id: 21,
+        name: "svelte",
+        src: "/skills/svelte.svg",
+        link: "https://svelte.dev/",
+      },
+      {
+        id: 22,
+        name: "sass",
+        src: "/skills/sass.svg",
+        link: "https://sass-lang.com/",
+      },
+      {
+        id: 23,
+        name: "threejs",
+        src: "/skills/threejs.svg",
+        link: "https://threejs.org/",
+      },
     ],
   },
   contact: {
